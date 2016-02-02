@@ -13,7 +13,7 @@
     <div id="main">
       <h1>Redial by kz</h1>
       <pre id="kasi">
- 君の為に僕らの為に　今も声をかき鳴らして
+君の為に僕らの為に　今も声をかき鳴らして
 始まりから続くサステインを
 君にも伝えたいから
 
@@ -57,9 +57,13 @@
     </div>
     <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <style>
+      @font-face {
+	    font-family: 'MyFont';
+	    src: url(myfont.ttf);
+      }
       body {
+         font-family:MyFont;
          font-size:14px;
-         
       }
       #music {
          left:0;
@@ -79,6 +83,7 @@
         z-index:100;
       }
       #kasi {
+        font-family:MyFont;
         font-size:2em;
       }
     </style>  
